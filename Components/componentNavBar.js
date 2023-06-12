@@ -13,7 +13,7 @@ app.component('nav-bar', {
 
   data(){
       return{
-          image: "Images/janedoe.jpeg", 
+          image: "./Images/janedoe.jpeg", 
           nombreUsuario: ''
         }
   },
