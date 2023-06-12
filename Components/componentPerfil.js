@@ -34,7 +34,7 @@ app.component('perfil', {
           ciudadDondeVive: "Berlin",
           lugarDeTrabajo: "Google",
 
-          image: "Images/JaneDoe.jpeg",
+          image: "Images/janeDoe.jpeg",
           seguirBtnTexto: "Seguir",
           seguirBtnApretado: false 
       }
