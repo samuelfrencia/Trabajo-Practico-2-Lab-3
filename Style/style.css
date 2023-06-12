@@ -1,0 +1,98 @@
+body{
+background-color: #E5E5E5;
+    }
+.imgJaneDoe{
+    width: 100%;
+    border-radius: 50%;
+}
+.bordePerfil{
+    border-radius: 3%;
+    padding: 25px;
+    border: 1px solid black;
+    left: 5; 
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+.imgPaisaje{
+    width: 100%;
+    border-radius: 3%;
+}
+.btnMegusta{
+    margin-top: 5px;
+}
+#nombresEnColor{
+    color: blue;
+    font-size: 20px;
+}
+.sobreMi{
+    border: 1px solid black; 
+    text-align: center; 
+    border-radius: 3%;
+    padding: 25px;
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.seccionDeFotoYcomentarios{
+    border: 1px solid black;
+    border-radius: 3%;
+    padding: 10px;
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bordeFotoPerfil{
+    text-align: center;
+    border: 4px solid blue;
+    border-radius: 50%;
+    padding: 4px;
+}
+.perfil-info {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+/*Boton de seguir*/
+.buttonseguir {
+    margin-top: 20px;
+    align-self: flex-end;
+    width: 90%;
+}
+
+/*Boton me gusta*/
+#contenedor-me-gusta {   
+    display: flex;   
+    justify-content: space-between;   
+    align-items: center; 
+}  
+#boton-me-gusta {   
+    padding: 10px;   
+    background-color: #4CAF50;   
+    color: white;   border: none;   
+    cursor: pointer;   
+    margin-right: 10px; 
+    border-radius: 15%;
+}  
+#boton-me-gusta.apretado {   
+    background-color: red; 
+}  
+#contador-me-gusta {   
+    font-size: 16px;   
+    font-weight: bold;   
+    margin-left: 10px; 
+}
+.btn.apretado{
+    background-color:green;
+    text-decoration: black;
+}
+.eliminar-comentario{
+    background-color: rgb(223, 216, 216);
+    color: red;
+    border: rgb(223, 216, 216);
+    border-radius: 15%;
+}
+
+
